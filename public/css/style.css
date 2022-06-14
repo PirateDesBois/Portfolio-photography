@@ -1,0 +1,50 @@
+/* Navbar */
+*{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.transparent{
+background-color: transparent;
+}
+.navbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+}
+/* Banner */
+.eye-container1{
+        display: flex;
+        position: absolute;
+        content: "";
+        left: 62.5%;
+        top: 57.3%;
+}
+.eye-container2{
+        display: flex;
+        position: absolute;
+        content: "";
+        left: 72%;
+        top: 59.5%;
+}
+.eye1,.eye2{
+        width: 3em;
+        height: 3em;
+        border-radius: 50%;
+}
+.eyeball1{
+        position: relative;
+        top: 0.7em;
+        width:50px;
+        height:auto;
+}
+.eyeball2{
+        position: relative;
+        top: 0.7em;
+        width:50px;
+        height:auto;
+}
+.background{
+        background-image: url('../img/singe-banner.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 900px;
+}
